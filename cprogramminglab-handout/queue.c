@@ -34,7 +34,6 @@ queue_t *q_new()
 void q_free(queue_t *q)
 {
     /* How about freeing the list elements and the strings? */
-    /* Free queue structure */
     free(q);
 }
 
